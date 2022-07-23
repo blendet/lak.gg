@@ -9,3 +9,7 @@ misc:Toggle("No Sun Damage",function(bool)
     _G.sun = bool
     game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"].Gameplay["Sun_Damage"].Disabled = _G.sun
 end)
+
+misc:Button("Copy Discord",function()
+    setclipbaord("https://discord.gg/8ZSPD9kPk3")
+end)
