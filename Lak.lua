@@ -260,6 +260,13 @@ end)
 
 local settings = pj:CreateFolder("Settings")
 
+settings:Label("Join the discord for the latest updates",{
+    TextSize = 16; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
 settings:Button("Copy Discord",function()
     setclipboard("https://discord.gg/aHpdTxPA")
 end)
