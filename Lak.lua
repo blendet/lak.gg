@@ -11,5 +11,5 @@ misc:Toggle("No Sun Damage",function(bool)
 end)
 
 misc:Button("Copy Discord",function()
-    setclipbaord("https://discord.gg/8ZSPD9kPk3")
+    setclipboard("https://discord.gg/8ZSPD9kPk3")
 end)
